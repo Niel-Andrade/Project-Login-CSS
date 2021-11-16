@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    margin: 128px 0 12px 16px;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 41px;
+    letter-spacing: 0.41px;
+    color: #000000
+}
+
+
+/*.h1-login {
+    display: block;
+    margin: 128px auto auto 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 41px;
+    letter-spacing: 0.41px;
+    color: #0F0F0F;
+}*/
+
+.paragraph-email-password {
+    display: block;
+    color: #808080;
+    margin: 12px 16px auto 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.41px;
+}
+
+input {
+    background: #F2F2F7;
+    border-radius: 6px;
+    display: block;
+    height: 48px;
+    width: calc(100% - 32px);
+    border: none;
+}
+
+.input-email {
+    margin: 102px auto auto auto;
+}
+
+.input-password {
+    margin: 12px auto auto auto;
+}
+
+input::placeholder {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    padding-left: 14px;
+    letter-spacing: -0.41px;
+    color: #929292;
+}
+
+.forgot {
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.41px;
+    color: #007AFF;
+    margin: 17px 16px auto auto;
+    text-align: end;
+    text-decoration: none;
+}
+
+button {
+    display: block;
+    width: calc(100% - 32px);
+    Height: 48px;
+    border-radius: 10px;
+    border: none;
+    background-color: #000000;
+    margin: 20px auto auto auto;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.41px;
+    color: #FFFFFF;
+}
+
+.singup {
+    display: block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin: 204px auto 39px auto;
+    color: #00000082;
+    text-decoration: none;
+}
+
+strong {
+    color: #007AFF;
+}
